@@ -125,11 +125,11 @@ info = /location/to/info.log
 
 When you've created the configuration you can start the consumer like this:
 
-    $ rabbitmq-cli-consumer -e "/path/to/your/app argument --flag" -c /path/to/your/configuration.conf -V
+    $ rabbitmq-cli-consumer -e "/path/to/your/app argument --flag" -c /path/to/your/configuration.conf
 
 Run without <code>-V</code> to get rid of the output:
 
-    $ rabbitmq-cli-consumer -e "/path/to/your/app argument --flag" -c /path/to/your/configuration.conf
+    $ rabbitmq-cli-consumer -e "/path/to/your/app argument --flag" -c /path/to/your/configuration.conf -V
 
 ### Prefetch count
 
